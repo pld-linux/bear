@@ -1,13 +1,13 @@
 Summary:	Tool that generates a compilation database for clang tooling
 Name:		bear
-Version:	3.0.20
+Version:	3.0.21
 Release:	1
 License:	GPL v3+
 Group:		Development/Building
 Source0:	https://github.com/rizsotto/Bear/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	4cc73620a824aef9a2d6bbd58c77f51c
+# Source0-md5:	662fec17c4ae56326bdec8e35198bec4
 URL:		https://github.com/rizsotto/Bear
-BuildRequires:	cmake >= 3.12
+BuildRequires:	cmake >= 3.13
 BuildRequires:	gmock-devel >= 1.10
 BuildRequires:	grpc-devel >= 1.26
 BuildRequires:	gtest-devel >= 1.10
