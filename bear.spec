@@ -1,11 +1,11 @@
 Summary:	Tool that generates a compilation database for clang tooling
 Name:		bear
-Version:	3.0.21
+Version:	3.1.0
 Release:	1
 License:	GPL v3+
 Group:		Development/Building
 Source0:	https://github.com/rizsotto/Bear/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	662fec17c4ae56326bdec8e35198bec4
+# Source0-md5:	fdcaa5cadfbf0688720509642ecfe6e8
 URL:		https://github.com/rizsotto/Bear
 BuildRequires:	cmake >= 3.13
 BuildRequires:	gmock-devel >= 1.10
@@ -64,13 +64,11 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CONTRIBUTING.md README.md
 %attr(755,root,root) %{_bindir}/bear
-%attr(755,root,root) %{_bindir}/citnames
-%attr(755,root,root) %{_bindir}/intercept
 %dir %{_libdir}/bear
 %attr(755,root,root) %{_libdir}/bear/libexec.so
 %attr(755,root,root) %{_libdir}/bear/wrapper
 %dir %{_libdir}/bear/wrapper.d
 %attr(755,root,root) %{_libdir}/bear/wrapper.d/*
 %{_mandir}/man1/bear.1*
-%{_mandir}/man1/citnames.1*
-%{_mandir}/man1/intercept.1*
+%{_mandir}/man1/bear-citnames.1*
+%{_mandir}/man1/bear-intercept.1*
