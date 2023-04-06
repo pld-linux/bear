@@ -1,4 +1,5 @@
 Summary:	Tool that generates a compilation database for clang tooling
+Summary(pl.UTF-8):	Narzędzie generujące bazę danych kompilacji do obróbki clanga
 Name:		bear
 Version:	3.1.1
 Release:	1
@@ -32,6 +33,17 @@ it is easy to re-run the compilation with alternate programs.
 Some build systems natively support generation of JSON compilation
 database. For projects which do not use such build tool, Bear
 generates the JSON file during build process.
+
+%description -l pl.UTF-8
+Baza danych kompilacji w formacie JSON służy w projekcie clang do
+dostarczania informacji o sposobie przetwarzania jednostki kompilacji.
+Przy użyciu takiej bazy można łatwo ponownie uruchomić kompilację przy
+użyciu alternatywnych programów.
+
+Niektóre systemu budowania natywnie obsługują generowanie bazy danych
+kompilacji w formacie JSON. W przypadku projektów nie używających
+takiego narzędzia do budowania Bear potrafi wygenerować plik JSON w
+trakcie procesu budowania.
 
 %prep
 %setup -q -n Bear-%{version}
