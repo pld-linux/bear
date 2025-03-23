@@ -1,12 +1,12 @@
 Summary:	Tool that generates a compilation database for clang tooling
 Summary(pl.UTF-8):	Narzędzie generujące bazę danych kompilacji do obróbki clanga
 Name:		bear
-Version:	3.1.5
+Version:	3.1.6
 Release:	1
 License:	GPL v3+
 Group:		Development/Building
 Source0:	https://github.com/rizsotto/Bear/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	6dcb3f96ed8cce49151f57e04a51797a
+# Source0-md5:	e9c7151bdb3a98fe7ff64f7fa19eebcb
 URL:		https://github.com/rizsotto/Bear
 BuildRequires:	cmake >= 3.13
 BuildRequires:	gmock-devel >= 1.10
