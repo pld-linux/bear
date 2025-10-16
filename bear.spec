@@ -2,7 +2,7 @@ Summary:	Tool that generates a compilation database for clang tooling
 Summary(pl.UTF-8):	Narzędzie generujące bazę danych kompilacji do obróbki clanga
 Name:		bear
 Version:	3.1.6
-Release:	3
+Release:	4
 License:	GPL v3+
 Group:		Development/Building
 Source0:	https://github.com/rizsotto/Bear/archive/%{version}/%{name}-%{version}.tar.gz
